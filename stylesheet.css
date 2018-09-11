@@ -6,6 +6,9 @@ h1{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 32px;font-wei
 
 h2{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 18px;font-weight: regular;color: white}
 
-p{margin-top: 40px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; line-height: 20px; color: white; width: 250px;height: auto;}
+p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; line-height: 20px; color: white; width: 250px;height: auto;}
 
-links{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 14px;font-weight: thin;letter-spacing: 1px; color: white;}
+#links{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; color: white;}
+
+#horizontal-line{width: 250px; height: 1px; background-color: white; margin-left: 15px;}
+
