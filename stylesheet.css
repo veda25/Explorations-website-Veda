@@ -69,10 +69,10 @@ p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica
   color: #FFFFFF;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
     letter-spacing: 1px;
-  padding: 12px;  
+  padding: 10px;  
   width: relative;
   transition: all 0.5s;
   cursor: pointer;
@@ -106,3 +106,13 @@ p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica
   opacity: 1;
   right: 0;
 }
+
+#secret {
+    z-index:9; 
+}
+
+
+#secreting {
+    z-index:9; 
+}
+
