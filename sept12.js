@@ -5,10 +5,33 @@ var canvas;
 
 
 function setup() {
- canvas = createCanvas(1200, 800);
- canvas.position(300, 0);
+ canvas = createCanvas(1200, 650);
+ canvas.position(300, 50);
  ellipseMode(CENTER);
 }
+
+
+
+            function showheidi(){
+                document.getElementById("heidi").style.display = "block";
+            }
+
+            function hideheidi(){
+                document.getElementById("heidi").style.display = "none";
+            }
+
+
+function showsecret(){
+document.getElementById("secret").style.display = "block";
+	
+}
+
+function hidesecret(){
+document.getElementById("secret").style.display = "none";
+}
+
+
+
 
 
 function draw(){
@@ -61,7 +84,6 @@ line(230, 260, 350, 290);
 stroke(255);
 line(377, 183, 350, 290);
 		
-	
 //1turqand3green//
 stroke(255);
 line(230, 260, 377, 183);
@@ -69,6 +91,91 @@ line(230, 260, 377, 183);
 //1yellowand2red//
 stroke(255);
 line(200, 420, 350, 290);
+	
+//blue1andblue2//
+stroke(255);
+line(145, 325, 250, 335);
+	
+//blue2andgreen3//	
+stroke(255);
+line(250, 335, 377, 183);
+	
+//blue2andyellow2//
+stroke(255);
+line(250, 335, 200,420);
+
+//yellow2andturquoise2//
+stroke(255);
+line(450, 400, 200,420);
+
+//red2andtruq2//
+stroke(255);
+line(350, 290, 450, 400)
+
+//yellow3andblue2//
+stroke(255);
+line(250, 335, 350, 370)
+	
+//yellow3andtruq2//
+stroke(255);
+line(350, 370, 450, 400)
+	
+//yellow2andgreen4//
+stroke(255);
+line(300, 480, 200, 420)
+	
+//turq2andgreen4//
+stroke(255);
+line(450, 400, 300, 480)
+	
+//red3andyellow2//	
+stroke(255);
+line(200, 420, 130, 510)
+	
+//red3andblue1//	
+stroke(255);
+line(130, 510, 145, 325)
+	
+//blue1andblue3//
+stroke(255);
+line(145, 325, 200, 620)
+	
+//turq2andblue3//
+stroke(255);
+line(200, 620, 450, 400)
+	
+//yellow2andblue3//
+stroke(255);
+line(200, 420, 200, 620)
+	
+//yello1andblue4//	
+stroke(255);
+line(400, 55, 250,80)
+
+//turq1andblue4//
+stroke(255);
+line(231, 260, 400, 55)
+	
+//turq5andgreen1//
+stroke(255);
+line(250, 40, 150, 40)
+	
+//turq5andgreen3//
+stroke(255);
+line(250, 40, 377, 183)
+	
+//yellow3andyellow4//
+stroke(255);
+line(487, 250, 200, 420)
+
+//turq2andred4//
+stroke(255);
+line(230, 260, 369, 620)	
+//turq2andred4//
+stroke(255);
+line(490, 535, 369, 620)
+	
+	
 	
 	
 	
@@ -87,17 +194,63 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(377,183, 25);
 	
+//green circle4//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(300,480, 22);
+	
+	
+
+	
+
+	
+	
+	
+	
 //red circle1//
 fill(235, 0, 86);
 ellipse(285, 135, 13);
 	
 //red circle2//
 fill(235, 0, 86);
-ellipse(350, 290, 16);
+ellipse(350, 290, 22);
+	
+//red circle3//
+fill(235, 0, 86);
+ellipse(130, 510, 25);
+
+//red circle4//
+fill(235, 0, 86);
+ellipse(369, 620, 35);
+	
+
+	
+
+	
 	
 //blue circle1//
 fill(154, 196, 248);
 ellipse(145, 325, 28);
+	
+//bluecircle2//     
+fill(154, 196, 248);
+ellipse(250,335, 10);
+
+//bluecircle3//     
+noStroke ();  
+fill(154, 196, 248);
+ellipse(200,620, 5);
+	
+//blue circle4//
+fill(154, 196, 248);
+ellipse(400, 55, 25);
+	
+//blue circle5//
+fill(154, 196, 248);
+ellipse(490, 535, 15);
+	
+
+	
 	
 	
 //yellow circle1//     
@@ -108,28 +261,53 @@ ellipse(250,80, 15);
 //yellow circle2//     
 noStroke ();  
 fill(241, 154, 62);
-ellipse(200,420, 35);	
+ellipse(200,420, 35);
+	
+//yellow circle3//
+fill(241, 154, 62);
+ellipse(350, 370, 7);
 
+//yellow circle4//
+fill(241, 154, 62);
+ellipse(487, 250, 40);
+	
+//yellow circle5//     
+noStroke ();  
+fill(241, 154, 62);
+ellipse(400,503, 12);
+
+	
+	
 	
 //turquoise circle1//
 noStroke ();  
 fill(171, 231, 198);
 ellipse(230, 260, 30);
 	
+//turquoisecircle2//
+fill(171, 231, 198);
+ellipse(450, 400, 50);
 
 
-
+//turquoisecircle3//
+fill(171, 231, 198);
+ellipse(250, 40, 10);	
+	
+//turquoisecircle4//     
+noStroke ();  
+fill(171, 231, 198);
+ellipse(500, 100, 20);
+	
+	
+	
+	
+	
+	
 
 	
-//green circle13//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(50,680, 5);
 
-//green circle//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(500, 50, 30);
+
+
 	
 
 	
@@ -138,10 +316,7 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(90,700 , 15);
 
-//green circle4//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(300,450, 30);
+
 
 //green circle5//     
 noStroke ();  
@@ -163,16 +338,20 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(800,80, 20);
 	
-	
-//green circle9//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(300,360, 5);
 
-//green circle10//     
+	
+	
+	
+	
+	
+	
+	//green circle5//     
 noStroke ();  
 fill(124, 229, 119);
-ellipse(450,480, 5);
+ellipse(50,680, 15);
+
+
+
 
 //green circle11//     
 noStroke ();  
@@ -185,10 +364,7 @@ fill(124, 229, 119);
 ellipse(950,150, 5);
 
 
-//green circle14//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(200,620, 5);
+
 
 
 	
@@ -206,9 +382,7 @@ ellipse(600, 50, 20);
 fill(235, 0, 86);
 ellipse(545, 185, 18);
 	
-//red circle4//
-fill(235, 0, 86);
-ellipse(400, 75, 15);
+
 	
 //red circle5//
 fill(235, 0, 86);
@@ -220,40 +394,8 @@ ellipse(728, 177, 30);
 fill(0, 0, 150);
 ellipse(800, 250, 40);
 	
-//turquoise circle//
-fill(0, 100, 100);
-ellipse(400, 400, 60);
+
 
     
 }
-
-
-function showownerleave(){
-document.getElementById("secret").style.display = "block";
-	
-}
-
-function hideownerleave(){
-document.getElementById("secret").style.display = "none";
-}
-
-
-            function showheidi(){
-                document.getElementById("heidi").style.display = "block";
-            }
-
-            function hideheidi(){
-                document.getElementById("heidi").style.display = "none";
-            }
-
-
-function showsecret(){
-document.getElementById("secret").style.display = "block";
-	
-}
-
-function hidesecret(){
-document.getElementById("secret").style.display = "none";
-}
-
 
