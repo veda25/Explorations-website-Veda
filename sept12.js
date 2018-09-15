@@ -175,6 +175,72 @@ line(230, 260, 369, 620)
 stroke(255);
 line(490, 535, 369, 620)
 	
+//blue4andturq2
+stroke(255);
+line(400, 55, 450, 400)
+
+//turq4andred4//
+stroke(255);
+line(500, 100, 369, 620)
+	
+//green5andred4//
+stroke(255);
+line(440, 610, 350, 370)
+	
+//green1andred5//
+stroke(255);
+line(150,40, 445, 185)	
+	
+//blu4andblue6//
+stroke(255);
+line(400, 55, 620, 210)
+	
+//turq2ndblue6//
+stroke(255);
+line(450, 400, 620, 210)	
+//green6andblue6
+stroke(255);
+line(580, 480, 620, 210)
+	
+//green6andturq2//
+stroke(255);
+line(580, 480, 450,400,)
+
+//red7andgreen3//
+stroke(255);
+line(560, 400, 377,183,)
+	
+//red7andturq4//
+stroke(255);
+line(560, 400, 500, 100,)
+		
+//red7andturq4//
+stroke(255);
+line(600, 50, 200,420)
+
+//green7andyellow2//
+stroke(255);
+line(690, 350, 200,420)
+
+//red8andyellow2//
+stroke(255);
+line(678, 127, 690, 350)
+	
+//red8andyellow2//
+stroke(255);
+line(678, 127, 487, 250,)
+	
+//red8andyellow2//
+stroke(255);
+line(690, 350, 487, 250,)
+
+//turq2and5//	
+stroke(255);	
+line(537, 570, 450, 400)
+	
+//turq2andred7//	
+stroke(255);	
+line(537, 570, 678, 127,)
 	
 	
 	
@@ -199,9 +265,22 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(300,480, 22);
 	
+//green circle5//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(440, 610, 7);
 	
+//green circle6//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(580, 480, 27);
+	
+//green circle7//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(690, 350, 15);	
 
-	
+
 
 	
 	
@@ -223,9 +302,24 @@ ellipse(130, 510, 25);
 fill(235, 0, 86);
 ellipse(369, 620, 35);
 	
-
+//red circle5//
+fill(235, 0, 86);
+ellipse(445, 185, 7);
 	
-
+//red circle6//
+fill(235, 0, 86);
+ellipse(600, 50, 20);	
+	
+//red circle7//
+fill(235, 0, 86);
+ellipse(560, 400, 12);	
+	
+//redcircle8//
+fill(235, 0, 86);
+ellipse(678, 127, 30);
+	
+	
+	
 	
 	
 //blue circle1//
@@ -249,7 +343,13 @@ ellipse(400, 55, 25);
 fill(154, 196, 248);
 ellipse(490, 535, 15);
 	
+//blue circle6//
+fill(154, 196, 248);
+ellipse(620, 210, 35);
+	
 
+
+	
 	
 	
 	
@@ -275,7 +375,20 @@ ellipse(487, 250, 40);
 noStroke ();  
 fill(241, 154, 62);
 ellipse(400,503, 12);
+	
+//yellow circle6//     
+noStroke ();  
+fill(241, 154, 62);
+ellipse(670,543, 22);
+	
+//yellow circle//     
+noStroke ();  
+fill(241, 154, 62);
+ellipse(600,120, 12);
 
+
+
+	
 	
 	
 	
@@ -297,6 +410,11 @@ ellipse(250, 40, 10);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(500, 100, 20);
+	
+//turquoisecircle5//     
+noStroke ();  
+fill(171, 231, 198);
+ellipse(537, 570, 20);
 	
 	
 	
@@ -323,10 +441,7 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(700,630, 20);
 
-//green circle6//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(650,350, 15);
+
 	
 //green circle6//     
 noStroke ();  
@@ -339,8 +454,6 @@ fill(124, 229, 119);
 ellipse(800,80, 20);
 	
 
-	
-	
 	
 	
 	
@@ -372,21 +485,15 @@ ellipse(950,150, 5);
 	
 
 	
-//red circle1//
-fill(235, 0, 86);
-ellipse(600, 50, 20);
+
 	
 
 	
-//red circle3//
-fill(235, 0, 86);
-ellipse(545, 185, 18);
+
 	
 
 	
-//red circle5//
-fill(235, 0, 86);
-ellipse(728, 177, 30);
+
 	
 
 	
