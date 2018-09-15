@@ -39,6 +39,25 @@ ellipse(400, 400, 60);
 }
 
 
+function showownerleave(){
+document.getElementById("secret").style.display = "block";
+	
+}
+
+function hideownerleave(){
+document.getElementById("secret").style.display = "none";
+}
+
+
+            function showheidi(){
+                document.getElementById("heidi").style.display = "block";
+            }
+
+            function hideheidi(){
+                document.getElementById("heidi").style.display = "none";
+            }
+
+
 function showsecret(){
 document.getElementById("secret").style.display = "block";
 	
