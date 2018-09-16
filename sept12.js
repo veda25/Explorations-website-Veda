@@ -5,7 +5,7 @@ var canvas;
 
 
 function setup() {
- canvas = createCanvas(1200, 650);
+ canvas = createCanvas(1000, 650);
  canvas.position(300, 50);
  ellipseMode(CENTER);
 }
@@ -35,7 +35,7 @@ document.getElementById("secret").style.display = "none";
 
 
 function draw(){
-	background (150);
+		background (150);
 	clear();
 
 
@@ -242,8 +242,83 @@ line(537, 570, 450, 400)
 stroke(255);	
 line(537, 570, 678, 127,)
 	
+//r6andt5//	
+stroke(255);	
+line(600, 50, 720, 20)
+	
+//t5andg7//
+stroke(255);	
+line(776,340,600,50)
 	
 	
+//y9andg8//
+stroke(255);	
+line(776,340,885,500)
+	
+//y8andy9//
+stroke(255);	
+line(820,150, 885,500)
+
+	
+//y6andy9//	
+stroke(255);	
+line(670,543, 885,500)
+	
+//g9andy9//	
+stroke(255);	
+line(800,80, 670,543,)
+	
+//r8andy9//	
+stroke(255);	
+line(900, 220, 670,543,)
+		
+//g10andt6//	
+stroke(255);	
+line(90,630, 900, 320,)
+	
+//r8andy2//	
+stroke(255);	
+line(900, 220, 200,420,)
+
+//g14andg5//	
+stroke(255);	
+line(950,150,440, 610,)
+
+//g11andt5//	
+stroke(255);	
+line(725,445,720,20,)
+	
+//r9andb4//	
+stroke(255);	
+line(780,530,400, 55,)
+	
+//r9andt5//	
+stroke(255);	
+line(780,530,720, 20)
+	
+//g12andb4//	
+stroke(255);	
+line(700,630,400, 55,)
+	
+//X//	
+stroke(255);	
+line(725,445,720,20,)
+	
+//g12andt7//	
+stroke(255);	
+line(700,630, 832, 430,)
+	
+//g12andy5//	
+stroke(255);	
+line(700,630, 400,503,)
+	
+//g9andr3//	
+stroke(255);	
+line(800,80,130, 510)
+	
+	
+	
+
 	
 //green circle1//     
 noStroke ();  
@@ -280,9 +355,42 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(690, 350, 15);	
 
+//green circle8//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(776,340, 30);
 
+//green circle9//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(800,80, 20);
+	
+//green circle10//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(90,630, 15);
+
+//green circle11//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(725,445, 5);
+		
+//green circle12//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(700,630, 20);
+	
+//green circle13//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(50,680, 15);
 
 	
+//green circle14//     
+noStroke ();  
+fill(124, 229, 119);
+ellipse(950,150, 5);
+
 	
 	
 	
@@ -318,6 +426,14 @@ ellipse(560, 400, 12);
 fill(235, 0, 86);
 ellipse(678, 127, 30);
 	
+//redcircle8//
+fill(235, 0, 86);
+ellipse(900, 220, 20);	
+	
+//redcircle9//     
+noStroke ();  
+fill(235, 0, 86);
+ellipse(780,530, 18);
 	
 	
 	
@@ -347,7 +463,9 @@ ellipse(490, 535, 15);
 fill(154, 196, 248);
 ellipse(620, 210, 35);
 	
-
+//blue circle77//
+fill(154, 196, 248);
+ellipse(800, 250, 40);
 
 	
 	
@@ -381,12 +499,21 @@ noStroke ();
 fill(241, 154, 62);
 ellipse(670,543, 22);
 	
-//yellow circle//     
+//yellow circle7//     
 noStroke ();  
 fill(241, 154, 62);
-ellipse(600,120, 12);
+ellipse(600,120, 18);
 
 
+//yellow circle8//     
+noStroke ();  
+fill(241, 154, 62);
+ellipse(820,150, 25);
+	
+//yellow circle9//     
+noStroke ();  
+fill(241, 154, 62);
+ellipse(885,500, 18);
 
 	
 	
@@ -415,74 +542,38 @@ ellipse(500, 100, 20);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(537, 570, 20);
-	
-	
-	
-	
-	
-	
 
-	
-
-
-
-	
-
-	
-//green circle3//     
+//turquoisecircle5//     
 noStroke ();  
-fill(124, 229, 119);
-ellipse(90,700 , 15);
-
-
-
-//green circle5//     
+fill(171, 231, 198);
+ellipse(720, 20, 10);
+	
+//turquoisecircle6//     
 noStroke ();  
-fill(124, 229, 119);
-ellipse(700,630, 20);
-
-
+fill(171, 231, 198);
+ellipse(900, 320, 10);
 	
-//green circle6//     
+//turquoisecircle7//     
 noStroke ();  
-fill(124, 229, 119);
-ellipse(1000,500, 30);
+fill(171, 231, 198);
+ellipse(832, 430, 25);
 	
-//green circle7//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(800,80, 20);
+	
+	
 	
 
 	
-	
-	
-	
-	//green circle5//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(50,680, 15);
 
 
 
-
-//green circle11//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(725,445, 5);
 	
-//green circle12//     
-noStroke ();  
-fill(124, 229, 119);
-ellipse(950,150, 5);
+
+	
 
 
 
 
 
-	
-	
-	
 
 	
 
@@ -490,6 +581,23 @@ ellipse(950,150, 5);
 
 	
 
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
 	
 
 	
@@ -497,9 +605,15 @@ ellipse(950,150, 5);
 	
 
 	
-//blue circle//
-fill(0, 0, 150);
-ellipse(800, 250, 40);
+
+	
+
+	
+
+	
+
+	
+
 	
 
 
