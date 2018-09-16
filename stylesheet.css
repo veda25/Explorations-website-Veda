@@ -113,3 +113,43 @@ p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica
 }
 
 #heidi {z-index: 1;}
+
+
+#ranch {
+z-index: 2;
+	align-items: center;
+}
+	
+
+#mayo {
+	z-index:4;
+	position: fixed;
+	top: 280px;
+	margin-left: 550px;
+}
+	
+
+#srira {
+	z-index:2;
+	position: absolute;
+	top: 0px;
+	left: 430px
+		}
+
+#mustard {
+	z-index:1;
+	position: absolute;
+	top: 0px;
+	left: 300px
+	
+}
+
+#ketchup {
+	z-index:3;
+	position: absolute;
+	top: 280px;
+	left 200px;
+}
+	
+
+

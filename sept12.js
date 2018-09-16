@@ -1,7 +1,5 @@
 var canvas;
-
-
-
+var ellipse;
 
 
 function setup() {
@@ -31,12 +29,11 @@ document.getElementById("secret").style.display = "none";
 }
 
 
-
-
-
 function draw(){
 		background (150);
 	clear();
+	
+
 
 
 //1and2green//	
@@ -316,20 +313,29 @@ line(700,630, 400,503,)
 stroke(255);	
 line(800,80,130, 510)
 	
-	
+
 	
 
+	
 	
 //green circle1//     
 noStroke ();  
 fill(124, 229, 119);
 ellipse(150,40, 5);
 	
+	
 //green circle2//     
 noStroke ();  
 fill(124, 229, 119);
 ellipse(100, 200, 40);
 	
+   if( dist(mouseX, mouseY, 100, 200) < 40) {
+                    document.getElementById("srira").style.display = "block";
+                }else{
+                    document.getElementById("srira").style.display = "none";
+		
+				}
+
 //green circle3//     
 noStroke ();  
 fill(124, 229, 119);
@@ -398,6 +404,8 @@ ellipse(950,150, 5);
 fill(235, 0, 86);
 ellipse(285, 135, 13);
 	
+
+	
 //red circle2//
 fill(235, 0, 86);
 ellipse(350, 290, 22);
@@ -409,6 +417,13 @@ ellipse(130, 510, 25);
 //red circle4//
 fill(235, 0, 86);
 ellipse(369, 620, 35);
+	
+   if( dist(mouseX, mouseY, 369, 620) < 35) {
+                    document.getElementById("ketchup").style.display = "block";
+                }else{
+                    document.getElementById("ketchup").style.display = "none";
+		
+				}
 	
 //red circle5//
 fill(235, 0, 86);
@@ -481,6 +496,13 @@ noStroke ();
 fill(241, 154, 62);
 ellipse(200,420, 35);
 	
+   if( dist(mouseX, mouseY, 200, 420) < 35) {
+                    document.getElementById("mayo").style.display = "block";
+                }else{
+                    document.getElementById("mayo").style.display = "none";
+		
+				}
+	
 //yellow circle3//
 fill(241, 154, 62);
 ellipse(350, 370, 7);
@@ -527,7 +549,13 @@ ellipse(230, 260, 30);
 //turquoisecircle2//
 fill(171, 231, 198);
 ellipse(450, 400, 50);
-
+	
+   if( dist(mouseX, mouseY, 450, 400) < 50) {
+                    document.getElementById("mustard").style.display = "block";
+                }else{
+                    document.getElementById("mustard").style.display = "none";
+		
+				}
 
 //turquoisecircle3//
 fill(171, 231, 198);
@@ -537,6 +565,13 @@ ellipse(250, 40, 10);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(500, 100, 20);
+	
+   if( dist(mouseX, mouseY, 500, 100) < 20) {
+                    document.getElementById("ranch").style.display = "block";
+                }else{
+                    document.getElementById("ranch").style.display = "none";
+		
+				}
 	
 //turquoisecircle5//     
 noStroke ();  
@@ -557,23 +592,8 @@ ellipse(900, 320, 10);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(832, 430, 25);
-	
-	
-	
-	
 
-	
-
-
-
-	
-
-	
-
-
-
-
-
+				
 
 	
 
