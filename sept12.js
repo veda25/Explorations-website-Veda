@@ -340,11 +340,13 @@ ellipse(100, 200, 40);
 noStroke ();  
 fill(124, 229, 119);
 ellipse(377,183, 25);
+
 	
 //green circle4//     
 noStroke ();  
 fill(124, 229, 119);
 ellipse(300,480, 22);
+
 	
 //green circle5//     
 noStroke ();  
@@ -356,6 +358,14 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(580, 480, 27);
 	
+   if( dist(mouseX, mouseY, 580, 480) < 27) {
+                    document.getElementById("soba").style.display = "block";
+                }else{
+                    document.getElementById("soba").style.display = "none";
+		
+				}
+		
+	
 //green circle7//     
 noStroke ();  
 fill(124, 229, 119);
@@ -365,6 +375,15 @@ ellipse(690, 350, 15);
 noStroke ();  
 fill(124, 229, 119);
 ellipse(776,340, 30);
+	
+	
+   if( dist(mouseX, mouseY, 776, 340) < 30) {
+                    document.getElementById("seasame").style.display = "block";
+                }else{
+                    document.getElementById("seasame").style.display = "none";
+		
+				}
+		
 
 //green circle9//     
 noStroke ();  
@@ -457,6 +476,14 @@ ellipse(780,530, 18);
 fill(154, 196, 248);
 ellipse(145, 325, 28);
 	
+	
+   if( dist(mouseX, mouseY, 145, 325) < 28) {
+                    document.getElementById("teriyaki").style.display = "block";
+                }else{
+                    document.getElementById("teriyaki").style.display = "none";
+		
+				}
+	
 //bluecircle2//     
 fill(154, 196, 248);
 ellipse(250,335, 10);
@@ -470,6 +497,16 @@ ellipse(200,620, 5);
 fill(154, 196, 248);
 ellipse(400, 55, 25);
 	
+
+	
+   if( dist(mouseX, mouseY, 400, 55) < 25) {
+                    document.getElementById("ponzu").style.display = "block";
+                }else{
+                    document.getElementById("ponzu").style.display = "none";
+		
+				}
+	
+	
 //blue circle5//
 fill(154, 196, 248);
 ellipse(490, 535, 15);
@@ -478,10 +515,26 @@ ellipse(490, 535, 15);
 fill(154, 196, 248);
 ellipse(620, 210, 35);
 	
-//blue circle77//
+	
+   if( dist(mouseX, mouseY, 620, 210) < 35) {
+                    document.getElementById("miso").style.display = "block";
+                }else{
+                    document.getElementById("miso").style.display = "none";
+		
+				}
+	
+	
+
+//blue circle7//
 fill(154, 196, 248);
 ellipse(800, 250, 40);
 
+   if( dist(mouseX, mouseY, 800, 250) < 40) {
+                    document.getElementById("yuzu").style.display = "block";
+                }else{
+                    document.getElementById("yuzu").style.display = "none";
+		
+				}
 	
 	
 	
@@ -510,6 +563,14 @@ ellipse(350, 370, 7);
 //yellow circle4//
 fill(241, 154, 62);
 ellipse(487, 250, 40);
+	
+   if( dist(mouseX, mouseY, 487, 250) < 40) {
+                    document.getElementById("soya").style.display = "block";
+                }else{
+                    document.getElementById("soya").style.display = "none";
+		
+				}
+	
 	
 //yellow circle5//     
 noStroke ();  
@@ -545,6 +606,13 @@ ellipse(885,500, 18);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(230, 260, 30);
+	
+   if( dist(mouseX, mouseY, 230, 260) < 30) {
+                    document.getElementById("hoisin").style.display = "block";
+                }else{
+                    document.getElementById("hoisin").style.display = "none";
+		
+				}
 	
 //turquoisecircle2//
 fill(171, 231, 198);
