@@ -185,6 +185,13 @@ left: 550px;
 	top: 280px;
 	margin-left: 120px;
 }
+
+#shiso {
+	z-index:3;
+	position: fixed;
+	top: 280px;
+	margin-left: 120px;
+}
 	
 
 #miso {
@@ -192,6 +199,14 @@ left: 550px;
 	position: fixed;
 	top: 290px;
 	margin-left: 520px;
+}
+
+
+#noodle {
+	z-index:3;
+	position: fixed;
+	top: 290px;
+	margin-left: 600px;
 }
 
 #yuzu {
@@ -218,3 +233,113 @@ left: 550px;
 }
 
 
+#chips {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 600px;
+}
+
+
+#water {
+	z-index:3;
+	position: fixed;
+	top: 200px;
+	margin-left: 600px;
+}
+
+
+#oil {
+	z-index:3;
+	position: fixed;
+	top: 200px;
+	margin-left: 540px;
+}
+
+
+#pasta {
+	z-index:3;
+	position: fixed;
+	top: 120px;
+	margin-left: 540px;
+}
+
+
+#jan {
+	z-index:3;
+	position: fixed;
+	top: 120px;
+	margin-left: 540px;
+}
+
+
+
+#feb {
+	z-index:3;
+	position: fixed;
+	top: 120px;
+	margin-left: 340px;
+}
+
+
+
+#mar {
+	z-index:3;
+	position: fixed;
+	top: 120px;
+	margin-left: 680px;
+}
+
+#apr {
+	z-index:3;
+	position: fixed;
+	top: 220px;
+	margin-left: 520px;
+}
+
+
+#MAY {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 520px;
+}
+
+#june {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 470px;
+}
+
+
+#july {
+	z-index:3;
+	position: fixed;
+	top: 180px;
+	margin-left: 470px;
+}
+
+
+#aug {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 530px;
+}
+
+
+#sept {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 530px;
+}
+
+
+#oct {
+	z-index:3;
+	position: fixed;
+	top: 160px;
+	margin-left: 480px;
+}

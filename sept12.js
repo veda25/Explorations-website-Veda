@@ -227,6 +227,10 @@ line(678, 127, 690, 350)
 stroke(255);
 line(678, 127, 487, 250,)
 	
+//red8andyellow6//
+stroke(255);
+line(678, 127, 600, 120,)
+	
 //red8andyellow2//
 stroke(255);
 line(690, 350, 487, 250,)
@@ -285,6 +289,11 @@ line(950,150,440, 610,)
 stroke(255);	
 line(725,445,720,20,)
 	
+	
+//y7andt5//	
+stroke(255);	
+line(600,120,720,20,)
+	
 //r9andb4//	
 stroke(255);	
 line(780,530,400, 55,)
@@ -313,7 +322,9 @@ line(700,630, 400,503,)
 stroke(255);	
 line(800,80,130, 510)
 	
-
+//y8andg12//	
+stroke(255);	
+line(820,150,700,630)
 	
 
 	
@@ -340,12 +351,29 @@ ellipse(100, 200, 40);
 noStroke ();  
 fill(124, 229, 119);
 ellipse(377,183, 25);
+	
+   if( dist(mouseX, mouseY, 377, 183) < 25) {
+                    document.getElementById("shiso").style.display = "block";
+                }else{
+                    document.getElementById("shiso").style.display = "none";
+		
+				}
+		
+
 
 	
 //green circle4//     
 noStroke ();  
 fill(124, 229, 119);
 ellipse(300,480, 22);
+	
+   if( dist(mouseX, mouseY, 300, 480) < 22) {
+                    document.getElementById("noodle").style.display = "block";
+                }else{
+                    document.getElementById("noodle").style.display = "none";
+		
+				}
+		
 
 	
 //green circle5//     
@@ -390,6 +418,14 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(800,80, 20);
 	
+
+	   if( dist(mouseX, mouseY, 800, 80) < 20) {
+                    document.getElementById("chips").style.display = "block";
+                }else{
+                    document.getElementById("chips").style.display = "none";
+		
+				}
+	
 //green circle10//     
 noStroke ();  
 fill(124, 229, 119);
@@ -404,6 +440,14 @@ ellipse(725,445, 5);
 noStroke ();  
 fill(124, 229, 119);
 ellipse(700,630, 20);
+	
+		   if( dist(mouseX, mouseY, 700, 630) < 20) {
+                    document.getElementById("apr").style.display = "block";
+                }else{
+                    document.getElementById("apr").style.display = "none";
+		
+				}
+
 	
 //green circle13//     
 noStroke ();  
@@ -429,9 +473,26 @@ ellipse(285, 135, 13);
 fill(235, 0, 86);
 ellipse(350, 290, 22);
 	
+	 if( dist(mouseX, mouseY, 350, 290) < 22) {
+                    document.getElementById("mar").style.display = "block";
+                }else{
+                    document.getElementById("mar").style.display = "none";
+		
+				}
+	
+	
 //red circle3//
 fill(235, 0, 86);
 ellipse(130, 510, 25);
+	
+	 if( dist(mouseX, mouseY, 130, 510) < 25) {
+                    document.getElementById("feb").style.display = "block";
+                }else{
+                    document.getElementById("feb").style.display = "none";
+		
+				}
+	
+
 
 //red circle4//
 fill(235, 0, 86);
@@ -452,6 +513,15 @@ ellipse(445, 185, 7);
 fill(235, 0, 86);
 ellipse(600, 50, 20);	
 	
+	
+ if( dist(mouseX, mouseY, 600, 50) < 20) {
+                    document.getElementById("pasta").style.display = "block";
+                }else{
+                    document.getElementById("pasta").style.display = "none";
+		
+				}
+	
+	
 //red circle7//
 fill(235, 0, 86);
 ellipse(560, 400, 12);	
@@ -460,14 +530,38 @@ ellipse(560, 400, 12);
 fill(235, 0, 86);
 ellipse(678, 127, 30);
 	
+   if( dist(mouseX, mouseY, 678, 127) < 30) {
+                    document.getElementById("water").style.display = "block";
+                }else{
+                    document.getElementById("water").style.display = "none";
+		
+				}
+	
 //redcircle8//
 fill(235, 0, 86);
 ellipse(900, 220, 20);	
+	
+	
+ if( dist(mouseX, mouseY, 900, 220) < 20) {
+                    document.getElementById("oil").style.display = "block";
+                }else{
+                    document.getElementById("oil").style.display = "none";
+		
+				}
+	
 	
 //redcircle9//     
 noStroke ();  
 fill(235, 0, 86);
 ellipse(780,530, 18);
+
+	
+	 if( dist(mouseX, mouseY, 780, 530) < 18) {
+                    document.getElementById("jan").style.display = "block";
+                }else{
+                    document.getElementById("jan").style.display = "none";
+		
+				}
 	
 	
 	
@@ -582,10 +676,27 @@ noStroke ();
 fill(241, 154, 62);
 ellipse(670,543, 22);
 	
+	   if( dist(mouseX, mouseY, 670, 543) < 22) {
+                    document.getElementById("may").style.display = "block";
+                }else{
+                    document.getElementById("may").style.display = "none";
+		
+				}
+	
+	
 //yellow circle7//     
 noStroke ();  
 fill(241, 154, 62);
-ellipse(600,120, 18);
+ellipse(600,120, 20);
+	
+	
+		   if( dist(mouseX, mouseY, 600, 120) < 20) {
+                    document.getElementById("july").style.display = "block";
+                }else{
+                    document.getElementById("july").style.display = "none";
+		
+				}	
+	
 
 
 //yellow circle8//     
@@ -593,12 +704,27 @@ noStroke ();
 fill(241, 154, 62);
 ellipse(820,150, 25);
 	
+
+	   if( dist(mouseX, mouseY, 820, 150) < 25) {
+                    document.getElementById("june").style.display = "block";
+                }else{
+                    document.getElementById("june").style.display = "none";
+		
+				}	
+	
 //yellow circle9//     
 noStroke ();  
 fill(241, 154, 62);
-ellipse(885,500, 18);
+ellipse(885,500, 20);
 
 	
+	
+		   if( dist(mouseX, mouseY, 885, 500) < 20) {
+                    document.getElementById("aug").style.display = "block";
+                }else{
+                    document.getElementById("aug").style.display = "none";
+		
+				}	
 	
 	
 	
@@ -645,6 +771,14 @@ ellipse(500, 100, 20);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(537, 570, 20);
+	
+   if( dist(mouseX, mouseY, 537, 570) < 20) {
+                    document.getElementById("sept").style.display = "block";
+                }else{
+                    document.getElementById("sept").style.display = "none";
+		
+				}
+	
 
 //turquoisecircle5//     
 noStroke ();  
@@ -660,7 +794,14 @@ ellipse(900, 320, 10);
 noStroke ();  
 fill(171, 231, 198);
 ellipse(832, 430, 25);
-
+	
+	
+   if( dist(mouseX, mouseY, 832, 430) < 25) {
+                    document.getElementById("oct").style.display = "block";
+                }else{
+                    document.getElementById("oct").style.display = "none";
+		
+				}
 				
 
 	
