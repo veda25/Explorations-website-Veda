@@ -2,17 +2,108 @@
 body {
 	background-color: black;
 }
-h1{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 32px;font-weight: bold;color:white}
+h1{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 32px;font-weight: bold;color:white; text-align: center;}
 
-h2{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 18px;font-weight: regular;color: white}
+h2{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 18px;font-weight: regular;color: white; margin-left: 15px;}
 
 h3{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 16px;font-weight: 300;color: white; margin-left: 15px; letter-spacing: 1px;}
 
+
+.h4{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 18px;font-weight: normal;color:white; text-align: center;}
+
 p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; line-height: 20px; color: white; width: 250px;height: auto;}
 
-#links{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; color: white;}
+.links{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight: thin;letter-spacing: 1px; color: white; font-style: underline;margin-left: 15px;}
+
+.action{ text-align: center; font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 16px;font-weight: bold;letter-spacing: 1px; color: white}
 
 #horizontal-line{width: 250px; height: 1px; background-color: white; margin-left: 15px;}
+
+#page-end{width: 1300px; height: 2px; background-color: white; margin: auto;}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 60px;
+}
+
+.container {
+    padding: 10px;
+	color: black;
+	border: white;
+}
+	
+.password {
+    width: 500px;
+	height: 50px;
+	padding-left: 20px;
+    display: block;-
+    border: 1px;
+	border-color: white;
+	color: black;
+    box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;font-weight: 300;
+	color: black; 
+letter-spacing: 1px;
+  margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.username {
+    width: 500px;
+	height: 50px;
+	padding-left: 20px;
+    display: block;-
+    border: 1px;
+	border-color: white;
+	color: black;
+    box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;font-weight: 300;
+	color: black; 
+letter-spacing: 1px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 10px;
+	  margin-left: auto;
+    margin-right: auto;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 6px 0 6px 0;
+}
+
+
+.container {
+    padding: 5px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 .dropbtn {
     background-color: black;
@@ -80,8 +171,6 @@ p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica
 }
 
 
-
-
 .button span {
   cursor: pointer;
   display: inline-block;
@@ -113,6 +202,10 @@ p{margin-top: 20px; margin-left: 15px;  font-family: "Helvetica Neue", Helvetica
 }
 
 #heidi {z-index: 1;}
+
+#facial {z-index: 1;}
+
+
 
 
 #ranch {

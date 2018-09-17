@@ -334,18 +334,22 @@ noStroke ();
 fill(124, 229, 119);
 ellipse(150,40, 5);
 	
-	
+
 //green circle2//     
 noStroke ();  
 fill(124, 229, 119);
 ellipse(100, 200, 40);
+
 	
    if( dist(mouseX, mouseY, 100, 200) < 40) {
+	   				
                     document.getElementById("srira").style.display = "block";
                 }else{
                     document.getElementById("srira").style.display = "none";
 		
 				}
+	
+	   
 
 //green circle3//     
 noStroke ();  
@@ -518,7 +522,7 @@ ellipse(600, 50, 20);
                     document.getElementById("pasta").style.display = "block";
                 }else{
                     document.getElementById("pasta").style.display = "none";
-		
+				
 				}
 	
 	
