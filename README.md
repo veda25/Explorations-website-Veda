@@ -33,3 +33,12 @@ https://www.apple.com/ca/
 http://dontfeartheinternet.com/example/1/
 https://guides.github.com/activities/hello-world/
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1
+https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
+https://p5js.org/reference/
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/js/default.asp
+https://github.com/processing/p5.js/wiki
+http://www.java2s.com/Tutorials/Javascript/Canvas_How_to/index.htm
+http://www.stackoverflow.com
+https://codepen.io
+https://stackexchange.com/
