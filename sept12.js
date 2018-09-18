@@ -29,6 +29,8 @@ document.getElementById("secret").style.display = "none";
 }
 
 
+
+
 function draw(){
 		background (150);
 	clear();
